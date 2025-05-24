@@ -28,9 +28,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Publish to clojars.org
         run: lein deploy clojars
-          env:
-            CLOJARS_USERNAME: ${{ secrets.CLOJARS_USERNAME }}
-            CLOJARS_PASSWORD: ${{ secrets.CLOJARS_PASSWORD }}
+        env:
+          CLOJARS_USERNAME: ${{ secrets.CLOJARS_USERNAME }}
+          CLOJARS_PASSWORD: ${{ secrets.CLOJARS_PASSWORD }}
       - name: Create Release Page
         shell: bash
         env:
