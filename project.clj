@@ -7,7 +7,7 @@
 (def rbac-client-version "1.1.5")
 (def dropwizard-metrics-version "3.2.2")
 
-(defproject org.openvoxproject/clj-parent "7.3.37"
+(defproject openvoxproject/clj-parent "7.3.37"
   ;; Abort when version ranges or version conflicts are detected in
   ;; dependencies. Also supports :warn to simply emit warnings.
   ;; requires lein 2.2.0+.
