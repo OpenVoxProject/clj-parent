@@ -1,5 +1,9 @@
 ## Unreleased
 
+## [7.3.37]
+
+- Migrate to Vox Pupuli
+
 ## [7.3.36]
 - update tk-fs-watcher to 1.2.6 to compress superfluous events
 

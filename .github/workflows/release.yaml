@@ -31,3 +31,8 @@ jobs:
           env:
             CLOJARS_USERNAME: ${{ secrets.CLOJARS_USERNAME }}
             CLOJARS_PASSWORD: ${{ secrets.CLOJARS_PASSWORD }}
+      - name: Create Release Page
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create ${{ github.ref_name }} --generate-notes
