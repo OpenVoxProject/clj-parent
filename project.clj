@@ -14,6 +14,7 @@
   :pedantic? :abort
   :packaging "pom"
   :url "https://github.com/openvoxproject/clj-parent"
+  :description "A clojure project that defines version numbers for common dependencies"
   :license {:name "Apache-2.0"
             :url "https://www.apache.org/licenses/LICENSE-2.0.txt"}
 
@@ -155,6 +156,7 @@
                                      :password :env/CLOJARS_PASSWORD
                                      :sign-releases false}]]
   :repositories [["github" {:url "https://maven.pkg.github.com/openvoxproject/cli-parent"
-                            :password [:env/GITHUB_TOKEN]
+                            :username :env/GITHUB_ACTOR
+                            :password :env/GITHUB_TOKEN
                             :sign-releases false
                             }]])
