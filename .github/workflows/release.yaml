@@ -22,11 +22,11 @@ jobs:
         uses: DeLaGuardo/setup-clojure@13.2
         with:
           lein: 'latest'
-      - name: Publish package to GitHub
-        run: lein deploy github
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_ACTOR: ${{ github.actor }}
+      #- name: Publish package to GitHub
+      #  run: lein deploy github
+      #  env:
+      #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #    GITHUB_ACTOR: ${{ github.actor }}
       - name: Publish to clojars.org
         run: lein deploy clojars
         env:
