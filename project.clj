@@ -155,4 +155,6 @@
                                      :password :env/CLOJARS_PASSWORD
                                      :sign-releases false}]]
   :repositories [["github" {:url "https://maven.pkg.github.com/openvoxproject/cli-parent"
-                                        :password [:env/GITHUB_TOKEN]}]])
+                            :password [:env/GITHUB_TOKEN]
+                            :sign-releases false
+                            }]])
