@@ -26,7 +26,7 @@ jobs:
         run: lein deploy github
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
+          GITHUB_ACTOR: ${{ github.actor }}
       - name: Publish to clojars.org
         run: lein deploy clojars
         env:
