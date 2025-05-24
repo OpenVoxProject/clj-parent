@@ -1,5 +1,9 @@
 ## Unreleased
 
+## [7.3.38]
+
+- Create GitHub releases for each tag
+
 ## [7.3.37]
 
 - Migrate to Vox Pupuli
