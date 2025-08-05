@@ -131,7 +131,6 @@
                          [puppetlabs/cljs-dashboard-widgets "0.1.0"]
                          [puppetlabs/rbac-client ~rbac-client-version]
                          [puppetlabs/rbac-client ~rbac-client-version :classifier "test"]
-                         [puppetlabs/analytics-client "1.2.0"]
                          [puppetlabs/clj-shell-utils "2.0.1"]
                          [puppetlabs/jruby-utils "5.2.0"]
 
