@@ -70,7 +70,7 @@
                          [com.taoensso/encore "3.9.2"]
 
                          [nrepl/nrepl "0.6.0"]
-                         [bidi "2.1.3"]
+                         [bidi "2.1.6"]
                          [clj-time "0.11.0"]
                          [clj-stacktrace "0.2.8"]
                          [com.zaxxer/HikariCP "5.0.1"]
