@@ -7,7 +7,7 @@
 (def rbac-client-version "1.1.5")
 (def dropwizard-metrics-version "3.2.2")
 
-(defproject org.openvoxproject/clj-parent "7.3.38"
+(defproject org.openvoxproject/clj-parent "7.4.0"
   ;; Abort when version ranges or version conflicts are detected in
   ;; dependencies. Also supports :warn to simply emit warnings.
   ;; requires lein 2.2.0+.
@@ -131,7 +131,6 @@
                          [puppetlabs/cljs-dashboard-widgets "0.1.0"]
                          [puppetlabs/rbac-client ~rbac-client-version]
                          [puppetlabs/rbac-client ~rbac-client-version :classifier "test"]
-                         [puppetlabs/analytics-client "1.2.0"]
                          [puppetlabs/clj-shell-utils "2.0.1"]
                          [puppetlabs/jruby-utils "5.2.0"]
 
