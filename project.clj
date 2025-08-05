@@ -128,7 +128,7 @@
                          [puppetlabs/comidi "1.0.0"]
                          [puppetlabs/trapperkeeper-comidi-metrics "0.1.1"]
                          [puppetlabs/i18n "0.9.2"]
-                         [puppetlabs/cljs-dashboard-widgets "0.1.0"]
+                         [puppetlabs/cljs-dashboard-widgets "0.1.1"]
                          [puppetlabs/rbac-client ~rbac-client-version]
                          [puppetlabs/rbac-client ~rbac-client-version :classifier "test"]
                          [puppetlabs/clj-shell-utils "2.0.1"]
