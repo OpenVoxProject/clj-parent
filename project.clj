@@ -154,7 +154,7 @@
   :deploy-repositories [["clojars" {:url "https://clojars.org/repo"
                                      :username :env/CLOJARS_USERNAME
                                      :password :env/CLOJARS_PASSWORD
-                                     :sign-releases false}]]
+                                     :sign-releases false}]])
   ;;:repositories [["github" {:url "https://maven.pkg.github.com/OpenVoxProject/cli-parent"
   ;;                          :username :env/GITHUB_ACTOR
   ;;                          :password :env/GITHUB_TOKEN
