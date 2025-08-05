@@ -74,7 +74,7 @@
                          [clj-time "0.11.0"]
                          [clj-stacktrace "0.2.8"]
                          [com.zaxxer/HikariCP "5.0.1"]
-                         [clj-commons/fs "1.6.307"]
+                         [clj-commons/fs "1.6.311"]
                          [instaparse "1.4.1"]
                          [slingshot "0.12.2"]
                          [cheshire "5.10.2"]
