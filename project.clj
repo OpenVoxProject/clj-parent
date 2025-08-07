@@ -1,6 +1,6 @@
 (def clj-version "1.11.2")
 (def ks-version "3.4.0")
-(def tk-version "4.0.2")
+(def tk-version "4.1.0")
 (def tk-jetty-10-version "1.0.18")
 (def tk-metrics-version "2.0.4")
 (def logback-version "1.3.14")
@@ -112,8 +112,8 @@
                          [puppetlabs/clj-ldap "0.4.0"]
                          [puppetlabs/kitchensink ~ks-version]
                          [puppetlabs/kitchensink ~ks-version :classifier "test"]
-                         [puppetlabs/trapperkeeper ~tk-version]
-                         [puppetlabs/trapperkeeper ~tk-version :classifier "test"]
+                         [org.openvoxproject/trapperkeeper ~tk-version]
+                         [org.openvoxproject/trapperkeeper ~tk-version :classifier "test"]
                          [com.puppetlabs/trapperkeeper-webserver-jetty10 ~tk-jetty-10-version]
                          [com.puppetlabs/trapperkeeper-webserver-jetty10 ~tk-jetty-10-version :classifier "test"]
                          [puppetlabs/trapperkeeper-metrics ~tk-metrics-version]
