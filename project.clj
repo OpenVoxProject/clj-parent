@@ -109,7 +109,7 @@
                          [puppetlabs/jdbc-util "1.4.3"]
                          [puppetlabs/typesafe-config "0.2.0"]
                          [puppetlabs/ssl-utils "3.5.2"]
-                         [puppetlabs/clj-ldap "0.4.0"]
+                         [puppetlabs/clj-ldap "0.4.1"]
                          [puppetlabs/kitchensink ~ks-version]
                          [puppetlabs/kitchensink ~ks-version :classifier "test"]
                          [org.openvoxproject/trapperkeeper ~tk-version]
