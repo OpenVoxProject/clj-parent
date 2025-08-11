@@ -38,7 +38,7 @@
                          [org.clojure/data.json "2.4.0"]
                          [org.clojure/data.priority-map "1.1.0"]
 
-                         [org.slf4j/log4j-over-slf4j "2.0.7"]
+                         [org.slf4j/log4j-over-slf4j "2.0.17"]
                          [org.slf4j/slf4j-api "2.0.7"]
                          [org.slf4j/jul-to-slf4j "2.0.7"]
                          [ch.qos.logback/logback-classic ~logback-version]
