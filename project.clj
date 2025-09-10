@@ -55,7 +55,7 @@
                          [org.apache.commons/commons-exec "1.4.0"]
                          [org.apache.commons/commons-compress "1.26.0"]
                          [org.apache.commons/commons-lang3 "3.14.0"]
-                         [org.apache.httpcomponents/httpclient  "4.5.13"]
+                         [org.apache.httpcomponents/httpclient  "4.5.14"]
                          [org.apache.httpcomponents/httpcore  "4.4.16"]
                          [org.apache.httpcomponents/httpasyncclient "4.1.5"]
                          [commons-beanutils "1.9.4"]
