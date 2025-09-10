@@ -89,7 +89,7 @@
                          [stencil "0.5.0"]
                          [beckon "0.1.1"]
                          [hiccup "1.0.5"]
-                         [liberator "0.15.2"]
+                         [liberator "0.15.3"]
                          [org.tcrawley/dynapath "1.1.0"]
                          [trptcolin/versioneer "0.2.0"]
                          [io.dropwizard.metrics/metrics-core ~dropwizard-metrics-version]
