@@ -74,7 +74,7 @@
                          [clj-time "0.11.0"]
                          [clj-stacktrace "0.2.8"]
                          [com.zaxxer/HikariCP "5.0.1"]
-                         [clj-commons/fs "1.6.311"]
+                         [clj-commons/fs "1.6.312"]
                          [instaparse "1.4.1"]
                          [slingshot "0.12.2"]
                          [cheshire "5.10.2"]
@@ -105,7 +105,7 @@
                          [prismatic/schema "1.1.12"]
                          [stylefruits/gniazdo "1.2.1"]
 
-                         [puppetlabs/http-client "2.1.3"]
+                         [puppetlabs/http-client "2.1.4"]
                          [puppetlabs/jdbc-util "1.4.3"]
                          [puppetlabs/typesafe-config "0.2.0"]
                          [puppetlabs/ssl-utils "3.5.2"]
