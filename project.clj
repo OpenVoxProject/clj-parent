@@ -103,7 +103,7 @@
                          [dev.weavejester/medley "1.7.0"]
                          [prismatic/plumbing "0.4.2"]
                          [prismatic/schema "1.1.12"]
-                         [stylefruits/gniazdo "1.2.1"]
+                         [stylefruits/gniazdo "1.2.2"]
 
                          [puppetlabs/http-client "2.1.4"]
                          [puppetlabs/jdbc-util "1.4.3"]
