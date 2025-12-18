@@ -1,5 +1,5 @@
 (def clj-version "1.11.2")
-(def ks-version "3.4.0")
+(def ks-version "3.4.1")
 (def tk-version "4.1.0")
 (def tk-jetty-10-version "1.0.18")
 (def tk-metrics-version "2.0.4")
@@ -7,7 +7,7 @@
 (def rbac-client-version "1.1.5")
 (def dropwizard-metrics-version "3.2.2")
 
-(defproject org.openvoxproject/clj-parent "7.4.0-SNAPSHOT"
+(defproject org.openvoxproject/clj-parent "7.4.1-SNAPSHOT"
   ;; Abort when version ranges or version conflicts are detected in
   ;; dependencies. Also supports :warn to simply emit warnings.
   ;; requires lein 2.2.0+.
@@ -110,8 +110,8 @@
                          [puppetlabs/typesafe-config "0.2.0"]
                          [puppetlabs/ssl-utils "3.5.2"]
                          [puppetlabs/clj-ldap "0.4.1"]
-                         [puppetlabs/kitchensink ~ks-version]
-                         [puppetlabs/kitchensink ~ks-version :classifier "test"]
+                         [org.openvoxproject/kitchensink ~ks-version]
+                         [org.openvoxproject/kitchensink ~ks-version :classifier "test"]
                          [org.openvoxproject/trapperkeeper ~tk-version]
                          [org.openvoxproject/trapperkeeper ~tk-version :classifier "test"]
                          [com.puppetlabs/trapperkeeper-webserver-jetty10 ~tk-jetty-10-version]
@@ -131,7 +131,7 @@
                          [puppetlabs/rbac-client ~rbac-client-version]
                          [puppetlabs/rbac-client ~rbac-client-version :classifier "test"]
                          [puppetlabs/clj-shell-utils "2.0.1"]
-                         [puppetlabs/jruby-utils "5.2.0"]
+                         [org.openvoxproject/jruby-utils "5.2.1-SNAPSHOT"]
 
                          ;; When these versions change we need to also
                          ;; promote the changes into the PE packaging repo
