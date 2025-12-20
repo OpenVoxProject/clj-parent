@@ -106,7 +106,6 @@
                          [stylefruits/gniazdo "1.2.1"]
 
                          [org.openvoxproject/http-client "2.1.4"]
-                         [org.openvoxproject/jdbc-util "1.4.3"]
                          [org.openvoxproject/typesafe-config "0.2.0"]
                          [org.openvoxproject/ssl-utils "3.5.2"]
                          [org.openvoxproject/kitchensink ~ks-version]
