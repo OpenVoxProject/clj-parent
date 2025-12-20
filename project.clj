@@ -1,10 +1,10 @@
 (def clj-version "1.11.2")
-(def ks-version "3.4.0")
-(def tk-version "4.1.0")
-(def tk-jetty-10-version "1.0.18")
-(def tk-metrics-version "2.0.4")
+(def ks-version "3.4.2")
+(def tk-version "4.1.1")
+(def tk-jetty-10-version "1.0.19")
+(def tk-metrics-version "2.0.5")
 (def logback-version "1.3.14")
-(def rbac-client-version "1.1.5")
+(def rbac-client-version "1.1.8")
 (def dropwizard-metrics-version "3.2.2")
 
 (defproject org.openvoxproject/clj-parent "7.4.1-SNAPSHOT"
@@ -105,9 +105,9 @@
                          [prismatic/schema "1.1.12"]
                          [stylefruits/gniazdo "1.2.1"]
 
-                         [org.openvoxproject/http-client "2.1.4"]
-                         [org.openvoxproject/typesafe-config "0.2.0"]
-                         [org.openvoxproject/ssl-utils "3.5.2"]
+                         [org.openvoxproject/http-client "2.1.5"]
+                         [org.openvoxproject/typesafe-config "0.2.1"]
+                         [org.openvoxproject/ssl-utils "3.5.4"]
                          [org.openvoxproject/kitchensink ~ks-version]
                          [org.openvoxproject/kitchensink ~ks-version :classifier "test"]
                          [org.openvoxproject/trapperkeeper ~tk-version]
@@ -116,20 +116,20 @@
                          [org.openvoxproject/trapperkeeper-webserver-jetty10 ~tk-jetty-10-version :classifier "test"]
                          [org.openvoxproject/trapperkeeper-metrics ~tk-metrics-version]
                          [org.openvoxproject/trapperkeeper-metrics ~tk-metrics-version :classifier "test"]
-                         [org.openvoxproject/trapperkeeper-scheduler "1.1.3"]
-                         [org.openvoxproject/trapperkeeper-authorization "2.0.1"]
-                         [org.openvoxproject/trapperkeeper-status "1.2.0"]
-                         [org.openvoxproject/trapperkeeper-filesystem-watcher "1.2.6"]
-                         [org.openvoxproject/structured-logging "0.2.0"]
-                         [org.openvoxproject/ring-middleware "2.0.4"]
-                         [org.openvoxproject/dujour-version-check "1.0.0"]
-                         [org.openvoxproject/comidi "1.0.0"]
-                         [org.openvoxproject/trapperkeeper-comidi-metrics "0.1.1"]
-                         [org.openvoxproject/i18n "0.9.2"]
+                         [org.openvoxproject/trapperkeeper-scheduler "1.2.4"]
+                         [org.openvoxproject/trapperkeeper-authorization "2.0.2"]
+                         [org.openvoxproject/trapperkeeper-status "1.2.1"]
+                         [org.openvoxproject/trapperkeeper-filesystem-watcher "1.2.7"]
+                         [org.openvoxproject/structured-logging "0.2.1"]
+                         [org.openvoxproject/ring-middleware "2.0.5"]
+                         [org.openvoxproject/dujour-version-check "1.0.1"]
+                         [org.openvoxproject/comidi "1.0.1"]
+                         [org.openvoxproject/trapperkeeper-comidi-metrics "0.1.3"]
+                         [org.openvoxproject/i18n "0.9.3"]
                          [org.openvoxproject/rbac-client ~rbac-client-version]
                          [org.openvoxproject/rbac-client ~rbac-client-version :classifier "test"]
-                         [org.openvoxproject/clj-shell-utils "2.0.1"]
-                         [org.openvoxproject/jruby-utils "5.2.0"]
+                         [org.openvoxproject/clj-shell-utils "2.0.2"]
+                         [org.openvoxproject/jruby-utils "5.2.1"]
 
                          ;; When these versions change we need to also
                          ;; promote the changes into the PE packaging repo
