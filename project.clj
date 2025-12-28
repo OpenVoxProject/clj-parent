@@ -108,7 +108,7 @@
                          [puppetlabs/http-client "2.1.4"]
                          [puppetlabs/jdbc-util "1.4.3"]
                          [puppetlabs/typesafe-config "0.2.0"]
-                         [puppetlabs/ssl-utils "3.5.2"]
+                         [puppetlabs/ssl-utils "3.5.3"]
                          [puppetlabs/kitchensink ~ks-version]
                          [puppetlabs/kitchensink ~ks-version :classifier "test"]
                          [org.openvoxproject/trapperkeeper ~tk-version]
