@@ -125,7 +125,7 @@
                          [puppetlabs/ring-middleware "2.0.4"]
                          [puppetlabs/dujour-version-check "1.0.0"]
                          [puppetlabs/comidi "1.0.0"]
-                         [puppetlabs/trapperkeeper-comidi-metrics "0.1.1"]
+                         [puppetlabs/trapperkeeper-comidi-metrics "0.1.2"]
                          [puppetlabs/i18n "0.9.2"]
                          [puppetlabs/rbac-client ~rbac-client-version]
                          [puppetlabs/rbac-client ~rbac-client-version :classifier "test"]
