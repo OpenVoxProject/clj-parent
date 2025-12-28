@@ -130,7 +130,7 @@
                          [puppetlabs/rbac-client ~rbac-client-version]
                          [puppetlabs/rbac-client ~rbac-client-version :classifier "test"]
                          [puppetlabs/clj-shell-utils "2.0.1"]
-                         [puppetlabs/jruby-utils "5.2.0"]
+                         [puppetlabs/jruby-utils "5.2.1"]
 
                          ;; When these versions change we need to also
                          ;; promote the changes into the PE packaging repo
