@@ -1,7 +1,7 @@
 (def clj-version "1.11.2")
 (def ks-version "3.4.0")
 (def tk-version "4.1.0")
-(def tk-jetty-10-version "1.0.18")
+(def tk-jetty-10-version "1.0.19")
 (def tk-metrics-version "2.0.4")
 (def logback-version "1.3.14")
 (def rbac-client-version "1.1.5")
