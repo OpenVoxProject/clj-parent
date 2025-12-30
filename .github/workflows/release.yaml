@@ -2,7 +2,8 @@
 name: Publish package to GitHub Packages and clojars.org
 
 permissions:
-  contents: read
+  contents: write
+  packages: write
 
 on:
   workflow_dispatch:
