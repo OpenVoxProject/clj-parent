@@ -136,7 +136,7 @@
                          ;; for BC (ie, clj-parent manages these versions for
                          ;; dev and FOSS, PE is managed via packages):
                          ;; https://github.com/puppetlabs/bouncy-castle-vanagon
-                         [org.bouncycastle/bcpkix-fips "1.0.7"]
+                         [org.bouncycastle/bcpkix-fips "1.0.8"]
                          [org.bouncycastle/bc-fips "1.0.2.5"]
                          [org.bouncycastle/bctls-fips "1.0.19"]
                          [org.bouncycastle/bcpkix-jdk18on "1.78.1"]
