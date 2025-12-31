@@ -1,6 +1,6 @@
 (def clj-version "1.11.2")
-(def ks-version "3.4.2")
-(def tk-version "4.1.1")
+(def ks-version "3.4.3")
+(def tk-version "4.1.2")
 (def tk-jetty-10-version "1.0.19")
 (def tk-metrics-version "2.0.5")
 (def logback-version "1.3.14")
@@ -105,9 +105,9 @@
                          [prismatic/schema "1.1.12"]
                          [stylefruits/gniazdo "1.2.1"]
 
-                         [org.openvoxproject/http-client "2.1.5"]
-                         [org.openvoxproject/typesafe-config "0.2.1"]
-                         [org.openvoxproject/ssl-utils "3.5.4"]
+                         [org.openvoxproject/http-client "2.1.6"]
+                         [org.openvoxproject/typesafe-config "0.2.2"]
+                         [org.openvoxproject/ssl-utils "3.5.5"]
                          [org.openvoxproject/kitchensink ~ks-version]
                          [org.openvoxproject/kitchensink ~ks-version :classifier "test"]
                          [org.openvoxproject/trapperkeeper ~tk-version]
@@ -119,13 +119,13 @@
                          [org.openvoxproject/trapperkeeper-scheduler "1.2.4"]
                          [org.openvoxproject/trapperkeeper-authorization "2.0.2"]
                          [org.openvoxproject/trapperkeeper-status "1.2.1"]
-                         [org.openvoxproject/trapperkeeper-filesystem-watcher "1.2.7"]
+                         [org.openvoxproject/trapperkeeper-filesystem-watcher "1.2.8"]
                          [org.openvoxproject/structured-logging "0.2.1"]
                          [org.openvoxproject/ring-middleware "2.0.5"]
                          [org.openvoxproject/dujour-version-check "1.0.1"]
-                         [org.openvoxproject/comidi "1.0.1"]
+                         [org.openvoxproject/comidi "1.0.2"]
                          [org.openvoxproject/trapperkeeper-comidi-metrics "0.1.3"]
-                         [org.openvoxproject/i18n "0.9.3"]
+                         [org.openvoxproject/i18n "0.9.4"]
                          [org.openvoxproject/rbac-client ~rbac-client-version]
                          [org.openvoxproject/rbac-client ~rbac-client-version :classifier "test"]
                          [org.openvoxproject/clj-shell-utils "2.0.2"]
