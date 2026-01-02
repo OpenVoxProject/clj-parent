@@ -53,7 +53,7 @@
 
                          [org.apache.maven.wagon/wagon-provider-api "2.10"]
                          [org.apache.commons/commons-exec "1.4.0"]
-                         [org.apache.commons/commons-compress "1.26.0"]
+                         [org.apache.commons/commons-compress "1.28.0"]
                          [org.apache.commons/commons-lang3 "3.18.0"]
                          [org.apache.httpcomponents/httpclient  "4.5.14"]
                          [org.apache.httpcomponents/httpcore  "4.4.16"]
@@ -62,7 +62,7 @@
                          [commons-codec "1.15"]
                          [commons-collections "3.2.2"]
                          [commons-logging "1.2"]
-                         [commons-io "2.15.1"]
+                         [commons-io "2.20.0"]
                          [joda-time "2.12.5"]
 
                          [com.taoensso/nippy "3.1.1"]
