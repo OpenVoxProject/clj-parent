@@ -1,13 +1,13 @@
 (def clj-version "1.11.2")
-(def ks-version "3.4.3")
-(def tk-version "4.1.2")
-(def tk-jetty-10-version "1.0.19")
-(def tk-metrics-version "2.0.5")
-(def logback-version "1.3.14")
-(def rbac-client-version "1.1.8")
+(def ks-version "3.5.0")
+(def tk-version "4.2.0")
+(def tk-jetty-10-version "1.1.0")
+(def tk-metrics-version "2.1.0")
+(def logback-version "1.3.16")
+(def rbac-client-version "1.2.0")
 (def dropwizard-metrics-version "3.2.2")
 
-(defproject org.openvoxproject/clj-parent "7.5.2-SNAPSHOT"
+(defproject org.openvoxproject/clj-parent "7.6.0-SNAPSHOT"
   ;; Abort when version ranges or version conflicts are detected in
   ;; dependencies. Also supports :warn to simply emit warnings.
   ;; requires lein 2.2.0+.
@@ -46,22 +46,21 @@
                          [ch.qos.logback/logback-access ~logback-version]
                          [net.logstash.logback/logstash-logback-encoder "7.3"]
                          [org.codehaus.janino/janino "3.0.8"]
-                         [com.fasterxml.jackson.core/jackson-core "2.14.0"]
-                         [com.fasterxml.jackson.core/jackson-databind "2.14.0"]
-                         [com.fasterxml.jackson.module/jackson-module-afterburner "2.14.0"]
+                         [com.fasterxml.jackson.core/jackson-core "2.15.4"]
+                         [com.fasterxml.jackson.core/jackson-databind "2.15.4"]
+                         [com.fasterxml.jackson.module/jackson-module-afterburner "2.15.4"]
                          [org.yaml/snakeyaml "2.0"]
 
                          [org.apache.maven.wagon/wagon-provider-api "2.10"]
                          [org.apache.commons/commons-exec "1.4.0"]
                          [org.apache.commons/commons-compress "1.26.0"]
-                         [org.apache.commons/commons-lang3 "3.14.0"]
+                         [org.apache.commons/commons-lang3 "3.18.0"]
                          [org.apache.httpcomponents/httpclient  "4.5.14"]
                          [org.apache.httpcomponents/httpcore  "4.4.16"]
                          [org.apache.httpcomponents/httpasyncclient "4.1.5"]
-                         [commons-beanutils "1.9.4"]
+                         [commons-beanutils "1.11.0"]
                          [commons-codec "1.15"]
                          [commons-collections "3.2.2"]
-                         [commons-lang "2.6"]
                          [commons-logging "1.2"]
                          [commons-io "2.15.1"]
                          [joda-time "2.12.5"]
@@ -105,9 +104,9 @@
                          [prismatic/schema "1.1.12"]
                          [stylefruits/gniazdo "1.2.1"]
 
-                         [org.openvoxproject/http-client "2.1.6"]
-                         [org.openvoxproject/typesafe-config "0.2.2"]
-                         [org.openvoxproject/ssl-utils "3.5.5"]
+                         [org.openvoxproject/http-client "2.2.0"]
+                         [org.openvoxproject/typesafe-config "1.0.0"]
+                         [org.openvoxproject/ssl-utils "3.6.0"]
                          [org.openvoxproject/kitchensink ~ks-version]
                          [org.openvoxproject/kitchensink ~ks-version :classifier "test"]
                          [org.openvoxproject/trapperkeeper ~tk-version]
@@ -116,33 +115,28 @@
                          [org.openvoxproject/trapperkeeper-webserver-jetty10 ~tk-jetty-10-version :classifier "test"]
                          [org.openvoxproject/trapperkeeper-metrics ~tk-metrics-version]
                          [org.openvoxproject/trapperkeeper-metrics ~tk-metrics-version :classifier "test"]
-                         [org.openvoxproject/trapperkeeper-scheduler "1.2.4"]
-                         [org.openvoxproject/trapperkeeper-authorization "2.0.2"]
-                         [org.openvoxproject/trapperkeeper-status "1.2.1"]
-                         [org.openvoxproject/trapperkeeper-filesystem-watcher "1.2.8"]
+                         [org.openvoxproject/trapperkeeper-scheduler "1.3.0"]
+                         [org.openvoxproject/trapperkeeper-authorization "2.1.0"]
+                         [org.openvoxproject/trapperkeeper-status "1.3.0"]
+                         [org.openvoxproject/trapperkeeper-filesystem-watcher "1.3.0"]
                          [org.openvoxproject/structured-logging "0.2.1"]
-                         [org.openvoxproject/ring-middleware "2.0.5"]
-                         [org.openvoxproject/dujour-version-check "1.0.1"]
-                         [org.openvoxproject/comidi "1.0.2"]
-                         [org.openvoxproject/trapperkeeper-comidi-metrics "0.1.3"]
-                         [org.openvoxproject/i18n "0.9.4"]
+                         [org.openvoxproject/ring-middleware "2.1.0"]
+                         [org.openvoxproject/dujour-version-check "1.1.0"]
+                         [org.openvoxproject/comidi "1.1.0"]
+                         [org.openvoxproject/trapperkeeper-comidi-metrics "1.0.0"]
+                         [org.openvoxproject/i18n "1.0.0"]
                          [org.openvoxproject/rbac-client ~rbac-client-version]
                          [org.openvoxproject/rbac-client ~rbac-client-version :classifier "test"]
-                         [org.openvoxproject/clj-shell-utils "2.0.2"]
-                         [org.openvoxproject/jruby-utils "5.2.1"]
+                         [org.openvoxproject/clj-shell-utils "2.1.0"]
+                         [org.openvoxproject/jruby-utils "5.3.0"]
 
-                         ;; When these versions change we need to also
-                         ;; promote the changes into the PE packaging repo
-                         ;; for BC (ie, clj-parent manages these versions for
-                         ;; dev and FOSS, PE is managed via packages):
-                         ;; https://github.com/puppetlabs/bouncy-castle-vanagon
-                         [org.bouncycastle/bcpkix-fips "1.0.7"]
-                         [org.bouncycastle/bc-fips "1.0.2.5"]
+                         [org.bouncycastle/bcpkix-fips "1.0.8"]
+                         [org.bouncycastle/bc-fips "1.0.2.6"]
                          [org.bouncycastle/bctls-fips "1.0.19"]
-                         [org.bouncycastle/bcpkix-jdk18on "1.78.1"]
-                         [org.bouncycastle/bctls-jdk18on "1.78.1"]
-                         [org.bouncycastle/bcprov-jdk18on "1.78.1"]
-                         [org.bouncycastle/bcutil-jdk18on "1.78.1"]]
+                         [org.bouncycastle/bcpkix-jdk18on "1.83"]
+                         [org.bouncycastle/bctls-jdk18on "1.83"]
+                         [org.bouncycastle/bcprov-jdk18on "1.83"]
+                         [org.bouncycastle/bcutil-jdk18on "1.83"]]
 
   :dependencies [[org.clojure/clojure]]
 
