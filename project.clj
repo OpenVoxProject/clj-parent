@@ -1,5 +1,5 @@
 (def clj-version "1.11.2")
-(def ks-version "3.5.0")
+(def ks-version "3.5.3")
 (def tk-version "4.2.0")
 (def tk-jetty-10-version "1.1.0")
 (def tk-metrics-version "2.1.0")
@@ -105,7 +105,7 @@
 
                          [org.openvoxproject/http-client "2.2.0"]
                          [org.openvoxproject/typesafe-config "1.0.0"]
-                         [org.openvoxproject/ssl-utils "3.6.0"]
+                         [org.openvoxproject/ssl-utils "3.6.1"]
                          [org.openvoxproject/kitchensink ~ks-version]
                          [org.openvoxproject/kitchensink ~ks-version :classifier "test"]
                          [org.openvoxproject/trapperkeeper ~tk-version]
@@ -121,9 +121,9 @@
                          [org.openvoxproject/structured-logging "0.2.1"]
                          [org.openvoxproject/ring-middleware "2.1.0"]
                          [org.openvoxproject/dujour-version-check "1.1.0"]
-                         [org.openvoxproject/comidi "1.1.0"]
+                         [org.openvoxproject/comidi "1.1.1"]
                          [org.openvoxproject/trapperkeeper-comidi-metrics "1.0.0"]
-                         [org.openvoxproject/i18n "1.0.0"]
+                         [org.openvoxproject/i18n "1.0.2"]
                          [org.openvoxproject/rbac-client ~rbac-client-version]
                          [org.openvoxproject/rbac-client ~rbac-client-version :classifier "test"]
                          [org.openvoxproject/clj-shell-utils "2.1.0"]
