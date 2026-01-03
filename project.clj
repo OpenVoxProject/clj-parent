@@ -45,7 +45,6 @@
                          [ch.qos.logback/logback-core ~logback-version]
                          [ch.qos.logback/logback-access ~logback-version]
                          [net.logstash.logback/logstash-logback-encoder "7.3"]
-                         [org.codehaus.janino/janino "3.0.8"]
                          [com.fasterxml.jackson.core/jackson-core "2.15.4"]
                          [com.fasterxml.jackson.core/jackson-databind "2.15.4"]
                          [com.fasterxml.jackson.module/jackson-module-afterburner "2.15.4"]
