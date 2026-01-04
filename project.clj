@@ -5,7 +5,7 @@
 (def tk-metrics-version "2.1.0")
 (def logback-version "1.3.16")
 (def rbac-client-version "1.2.0")
-(def dropwizard-metrics-version "3.2.2")
+(def dropwizard-metrics-version "3.2.6")
 
 (defproject org.openvoxproject/clj-parent "7.6.5-SNAPSHOT"
   ;; Abort when version ranges or version conflicts are detected in
