@@ -118,7 +118,7 @@
                          [org.openvoxproject/trapperkeeper-authorization "2.1.0"]
                          [org.openvoxproject/trapperkeeper-status "1.3.0"]
                          [org.openvoxproject/trapperkeeper-filesystem-watcher "1.3.0"]
-                         [org.openvoxproject/structured-logging "0.2.1"]
+                         [org.openvoxproject/structured-logging "1.0.0"]
                          [org.openvoxproject/ring-middleware "2.1.0"]
                          [org.openvoxproject/dujour-version-check "1.1.0"]
                          [org.openvoxproject/comidi "1.1.1"]
