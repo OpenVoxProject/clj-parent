@@ -118,7 +118,7 @@
                          [org.openvoxproject/trapperkeeper-authorization "2.1.0"]
                          [org.openvoxproject/trapperkeeper-status "1.3.0"]
                          [org.openvoxproject/trapperkeeper-filesystem-watcher "1.3.0"]
-                         [org.openvoxproject/structured-logging "0.2.1"]
+                         [org.openvoxproject/structured-logging "1.0.0"]
                          [org.openvoxproject/ring-middleware "2.1.0"]
                          [org.openvoxproject/dujour-version-check "1.1.0"]
                          [org.openvoxproject/comidi "1.1.1"]
@@ -127,7 +127,7 @@
                          [org.openvoxproject/rbac-client ~rbac-client-version]
                          [org.openvoxproject/rbac-client ~rbac-client-version :classifier "test"]
                          [org.openvoxproject/clj-shell-utils "2.1.0"]
-                         [org.openvoxproject/jruby-utils "5.3.0"]
+                         [org.openvoxproject/jruby-utils "5.3.1"]
 
                          [org.bouncycastle/bcpkix-fips "1.0.8"]
                          [org.bouncycastle/bc-fips "1.0.2.6"]
