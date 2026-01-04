@@ -127,7 +127,7 @@
                          [org.openvoxproject/rbac-client ~rbac-client-version]
                          [org.openvoxproject/rbac-client ~rbac-client-version :classifier "test"]
                          [org.openvoxproject/clj-shell-utils "2.1.0"]
-                         [org.openvoxproject/jruby-utils "5.3.0"]
+                         [org.openvoxproject/jruby-utils "5.3.1"]
 
                          [org.bouncycastle/bcpkix-fips "1.0.8"]
                          [org.bouncycastle/bc-fips "1.0.2.6"]
