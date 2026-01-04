@@ -100,7 +100,7 @@
                          [dev.weavejester/medley "1.7.0"]
                          [prismatic/plumbing "0.4.2"]
                          [prismatic/schema "1.1.12"]
-                         [stylefruits/gniazdo "1.2.1"]
+                         [stylefruits/gniazdo "1.2.2"]
 
                          [org.openvoxproject/http-client "2.2.0"]
                          [org.openvoxproject/typesafe-config "1.0.0"]
