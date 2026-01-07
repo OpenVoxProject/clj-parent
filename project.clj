@@ -96,7 +96,7 @@
                          ;; Remove once all projects are updated to use honeysql 2.x
                          [honeysql "1.0.461"]
                          [com.github.seancorfield/honeysql "2.3.911"]
-                         [org.postgresql/postgresql "42.7.3"]
+                         [org.postgresql/postgresql "42.7.8"]
                          [dev.weavejester/medley "1.7.0"]
                          [prismatic/plumbing "0.4.2"]
                          [prismatic/schema "1.1.12"]
