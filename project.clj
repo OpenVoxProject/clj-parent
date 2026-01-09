@@ -73,7 +73,7 @@
                          [clj-stacktrace "0.2.8"]
                          [com.zaxxer/HikariCP "5.1.0"]
                          [clj-commons/fs "1.6.312"]
-                         [instaparse "1.4.1"]
+                         [instaparse "1.5.0"]
                          [slingshot "0.12.2"]
                          [cheshire "5.13.0"]
                          [compojure "1.7.2"]
