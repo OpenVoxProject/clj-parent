@@ -62,7 +62,7 @@
                          [commons-collections "3.2.2"]
                          [commons-logging "1.3.5"]
                          [commons-io "2.21.0"]
-                         [joda-time "2.12.5"]
+                         [joda-time "2.14.0"]
 
                          [com.taoensso/nippy "3.6.0"]
                          [com.taoensso/encore "3.159.0"]
