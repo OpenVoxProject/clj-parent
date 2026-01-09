@@ -61,7 +61,7 @@
                          [commons-codec "1.20.0"]
                          [commons-collections "3.2.2"]
                          [commons-logging "1.2"]
-                         [commons-io "2.20.0"]
+                         [commons-io "2.21.0"]
                          [joda-time "2.12.5"]
 
                          [com.taoensso/nippy "3.6.0"]
