@@ -65,7 +65,7 @@
                          [joda-time "2.12.5"]
 
                          [com.taoensso/nippy "3.1.1"]
-                         [com.taoensso/encore "3.9.2"]
+                         [com.taoensso/encore "3.159.0"]
 
                          [nrepl/nrepl "0.6.0"]
                          [bidi "2.1.6"]
