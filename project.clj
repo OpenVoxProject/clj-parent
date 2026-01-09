@@ -6,6 +6,7 @@
 (def logback-version "1.3.16")
 (def rbac-client-version "1.2.0")
 (def dropwizard-metrics-version "3.2.2")
+(def jackson-version "2.15.4")
 
 (defproject org.openvoxproject/clj-parent "7.6.7-SNAPSHOT"
   ;; Abort when version ranges or version conflicts are detected in
@@ -45,9 +46,9 @@
                          [ch.qos.logback/logback-core ~logback-version]
                          [ch.qos.logback/logback-access ~logback-version]
                          [net.logstash.logback/logstash-logback-encoder "7.3"]
-                         [com.fasterxml.jackson.core/jackson-core "2.15.4"]
-                         [com.fasterxml.jackson.core/jackson-databind "2.15.4"]
-                         [com.fasterxml.jackson.module/jackson-module-afterburner "2.15.4"]
+                         [com.fasterxml.jackson.core/jackson-core ~jackson-version]
+                         [com.fasterxml.jackson.core/jackson-databind ~jackson-version]
+                         [com.fasterxml.jackson.module/jackson-module-afterburner ~jackson-version]
                          [org.yaml/snakeyaml "2.0"]
 
                          [org.apache.maven.wagon/wagon-provider-api "2.10"]
