@@ -1,4 +1,4 @@
-(def clj-version "1.11.2")
+(def clj-version "1.12.4")
 (def ks-version "3.5.3")
 (def tk-version "4.3.0")
 (def tk-jetty-10-version "1.1.0")
