@@ -64,7 +64,7 @@
                          [commons-io "2.20.0"]
                          [joda-time "2.12.5"]
 
-                         [com.taoensso/nippy "3.1.1"]
+                         [com.taoensso/nippy "3.6.0"]
                          [com.taoensso/encore "3.159.0"]
 
                          [nrepl/nrepl "0.6.0"]
