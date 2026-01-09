@@ -71,7 +71,7 @@
                          [bidi "2.1.6"]
                          [clj-time "0.15.2"]
                          [clj-stacktrace "0.2.8"]
-                         [com.zaxxer/HikariCP "5.0.1"]
+                         [com.zaxxer/HikariCP "5.1.0"]
                          [clj-commons/fs "1.6.312"]
                          [instaparse "1.4.1"]
                          [slingshot "0.12.2"]
