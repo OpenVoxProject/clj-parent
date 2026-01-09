@@ -98,7 +98,7 @@
                          [honeysql "1.0.461"]
                          [com.github.seancorfield/honeysql "2.7.1364"]
                          [org.postgresql/postgresql "42.7.8"]
-                         [dev.weavejester/medley "1.7.0"]
+                         [dev.weavejester/medley "1.9.0"]
                          [prismatic/plumbing "0.4.2"]
                          [prismatic/schema "1.1.12"]
                          [stylefruits/gniazdo "1.2.2"]
