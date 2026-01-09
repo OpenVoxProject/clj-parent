@@ -60,7 +60,7 @@
                          [commons-beanutils "1.11.0"]
                          [commons-codec "1.20.0"]
                          [commons-collections "3.2.2"]
-                         [commons-logging "1.2"]
+                         [commons-logging "1.3.5"]
                          [commons-io "2.21.0"]
                          [joda-time "2.12.5"]
 
