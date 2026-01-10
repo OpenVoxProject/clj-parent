@@ -82,7 +82,7 @@
                          [ring/ring-core "1.15.3"]
                          [ring/ring-codec "1.1.2"]
                          [ring/ring-json "0.5.1"]
-                         [ring-basic-authentication "1.1.0"]
+                         [ring-basic-authentication "1.2.0"]
                          [ring/ring-mock "0.4.0"]
                          [stencil "0.5.0"]
                          [beckon "0.1.1"]
