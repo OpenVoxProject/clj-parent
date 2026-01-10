@@ -20,7 +20,7 @@
             :url "https://www.apache.org/licenses/LICENSE-2.0.txt"}
 
   :managed-dependencies [[org.clojure/clojure ~clj-version]
-                         [org.clojure/clojurescript "1.10.866"]
+                         [org.clojure/clojurescript "1.12.134"]
                          [org.clojure/tools.logging "1.2.4"]
                          [org.clojure/tools.cli "1.0.206"]
                          [org.clojure/tools.nrepl "0.2.13"]
