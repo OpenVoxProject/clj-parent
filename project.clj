@@ -49,7 +49,7 @@
                          [com.fasterxml.jackson.core/jackson-core ~jackson-version]
                          [com.fasterxml.jackson.core/jackson-databind ~jackson-version]
                          [com.fasterxml.jackson.module/jackson-module-afterburner ~jackson-version]
-                         [org.yaml/snakeyaml "2.0"]
+                         [org.yaml/snakeyaml "2.5"]
 
                          [org.apache.maven.wagon/wagon-provider-api "2.12"]
                          [org.apache.commons/commons-exec "1.6.0"]
