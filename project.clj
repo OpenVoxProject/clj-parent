@@ -100,7 +100,7 @@
                          [org.postgresql/postgresql "42.7.8"]
                          [dev.weavejester/medley "1.9.0"]
                          [prismatic/plumbing "0.6.0"]
-                         [prismatic/schema "1.1.12"]
+                         [prismatic/schema "1.4.1"]
                          [stylefruits/gniazdo "1.2.2"]
 
                          [org.openvoxproject/http-client "2.2.0"]
