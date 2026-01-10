@@ -37,7 +37,7 @@
                          ;; No such var: parse/name-from-ns-decl
                          [org.clojure/tools.namespace "0.3.1"]
                          [org.clojure/data.json "2.5.2"]
-                         [org.clojure/data.priority-map "1.1.0"]
+                         [org.clojure/data.priority-map "1.2.1"]
 
                          [org.slf4j/log4j-over-slf4j "2.0.17"]
                          [org.slf4j/slf4j-api "2.0.17"]
