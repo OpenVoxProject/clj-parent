@@ -22,7 +22,7 @@
   :managed-dependencies [[org.clojure/clojure ~clj-version]
                          [org.clojure/clojurescript "1.12.134"]
                          [org.clojure/tools.logging "1.3.1"]
-                         [org.clojure/tools.cli "1.0.206"]
+                         [org.clojure/tools.cli "1.3.250"]
                          [org.clojure/tools.nrepl "0.2.13"]
                          [org.clojure/tools.macro "0.2.2"]
                          [org.clojure/java.classpath "1.1.1"]
