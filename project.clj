@@ -6,7 +6,7 @@
 (def logback-version "1.3.16")
 (def rbac-client-version "1.2.0")
 (def dropwizard-metrics-version "3.2.6")
-(def jackson-version "2.15.4")
+(def jackson-version "2.20.1")
 
 (defproject org.openvoxproject/clj-parent "7.6.7-SNAPSHOT"
   ;; Abort when version ranges or version conflicts are detected in
