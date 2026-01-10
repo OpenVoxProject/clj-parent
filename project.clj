@@ -51,7 +51,7 @@
                          [com.fasterxml.jackson.module/jackson-module-afterburner ~jackson-version]
                          [org.yaml/snakeyaml "2.0"]
 
-                         [org.apache.maven.wagon/wagon-provider-api "2.10"]
+                         [org.apache.maven.wagon/wagon-provider-api "2.12"]
                          [org.apache.commons/commons-exec "1.6.0"]
                          [org.apache.commons/commons-compress "1.28.0"]
                          [org.apache.httpcomponents/httpclient  "4.5.14"]
