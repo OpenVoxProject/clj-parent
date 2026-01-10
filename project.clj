@@ -79,7 +79,7 @@
                          [compojure "1.7.2"]
                          [quoin "0.1.2"]
                          [ring/ring-servlet "1.15.3"]
-                         [ring/ring-core "1.8.2"]
+                         [ring/ring-core "1.15.3"]
                          [ring/ring-codec "1.1.2"]
                          [ring/ring-json "0.5.1"]
                          [ring-basic-authentication "1.1.0"]
