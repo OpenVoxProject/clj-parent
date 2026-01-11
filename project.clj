@@ -5,7 +5,7 @@
 (def tk-metrics-version "2.1.0")
 (def logback-version "1.5.24")
 (def rbac-client-version "1.2.0")
-(def dropwizard-metrics-version "3.2.6")
+(def dropwizard-metrics-version "4.2.37")
 (def jackson-version "2.20.1")
 
 (defproject org.openvoxproject/clj-parent "7.6.7-SNAPSHOT"
