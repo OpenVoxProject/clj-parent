@@ -67,7 +67,7 @@
                          [com.taoensso/nippy "3.6.0"]
                          [com.taoensso/encore "3.159.0"]
 
-                         [nrepl/nrepl "0.9.0"]
+                         [nrepl/nrepl "1.5.2"]
                          [bidi "2.1.6"]
                          [clj-time "0.15.2"]
                          [clj-stacktrace "0.2.8"]
