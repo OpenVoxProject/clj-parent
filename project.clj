@@ -86,7 +86,7 @@
                          [ring/ring-mock "0.6.2"]
                          [stencil "0.5.0"]
                          [beckon "0.1.1"]
-                         [hiccup "1.0.5"]
+                         [hiccup "2.0.0"]
                          [liberator "0.15.3"]
                          [org.tcrawley/dynapath "1.1.0"]
                          [trptcolin/versioneer "0.2.0"]
