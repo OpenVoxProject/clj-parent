@@ -31,7 +31,7 @@
                          [org.clojure/core.async "1.8.741"]
                          [org.clojure/core.cache "1.2.249"]
                          [org.clojure/core.memoize "1.2.273"]
-                         [org.clojure/tools.reader "1.3.6"]
+                         [org.clojure/tools.reader "1.6.0"]
                          ;; recent attempts to update this resulted in failures to build
                          ;; Syntax error compiling at (clojure/tools/namespace/file.clj:65:26).
                          ;; No such var: parse/name-from-ns-decl
