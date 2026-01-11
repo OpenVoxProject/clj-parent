@@ -80,7 +80,7 @@
                          [quoin "0.1.2"]
                          [ring/ring-servlet "1.15.3"]
                          [ring/ring-core "1.15.3"]
-                         [ring/ring-codec "1.1.2"]
+                         [ring/ring-codec "1.3.0"]
                          [ring/ring-json "0.5.1"]
                          [ring-basic-authentication "1.2.0"]
                          [ring/ring-mock "0.4.0"]
