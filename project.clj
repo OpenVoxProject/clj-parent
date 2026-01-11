@@ -130,7 +130,7 @@
                          [org.openvoxproject/jruby-utils "5.3.1"]
 
                          [org.bouncycastle/bcpkix-fips "1.0.8"]
-                         [org.bouncycastle/bc-fips "1.0.2.6"]
+                         [org.bouncycastle/bc-fips "2.1.2"]
                          [org.bouncycastle/bctls-fips "1.0.19"]
                          [org.bouncycastle/bcpkix-jdk18on "1.83"]
                          [org.bouncycastle/bctls-jdk18on "1.83"]
