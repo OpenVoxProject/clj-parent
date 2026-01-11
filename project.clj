@@ -93,7 +93,7 @@
                          [io.dropwizard.metrics/metrics-core ~dropwizard-metrics-version]
                          [io.dropwizard.metrics/metrics-graphite ~dropwizard-metrics-version]
                          [metrics-clojure "2.10.0"]
-                         [org.ow2.asm/asm-all "5.2"]
+                         [org.ow2.asm/asm-all "6.0_BETA"]
                          ;; Remove once all projects are updated to use honeysql 2.x
                          [honeysql "1.0.461"]
                          [com.github.seancorfield/honeysql "2.7.1364"]
