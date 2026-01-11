@@ -35,7 +35,7 @@
                          ;; recent attempts to update this resulted in failures to build
                          ;; Syntax error compiling at (clojure/tools/namespace/file.clj:65:26).
                          ;; No such var: parse/name-from-ns-decl
-                         [org.clojure/tools.namespace "0.3.1"]
+                         [org.clojure/tools.namespace "1.5.1"]
                          [org.clojure/data.json "2.5.2"]
                          [org.clojure/data.priority-map "1.2.1"]
 
